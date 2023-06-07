@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4e8b52ecf6597d067732dc9125da785a",
+    "packages": [
+        {
+            "name": "ferror/bca",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "app/BoundedContextA",
+                "reference": "fc5fc89873e50c77d0bd3ff6db260f509c050af1"
+            },
+            "type": "library",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "ferror/bcb",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "app/BoundedContextB",
+                "reference": "5e83aea4e920c8a2ff06f7ee17777107eefa6165"
+            },
+            "type": "library",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "ferror/bcc",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "app/BoundedContextC",
+                "reference": "bd1e548cf6587f26e7dc1875d76ded917960accb"
+            },
+            "type": "library",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

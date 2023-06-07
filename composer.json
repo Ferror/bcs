@@ -1,0 +1,23 @@
+{
+    "name": "ferror/bcs",
+    "minimum-stability": "dev",
+    "require": {
+        "ferror/bca": "*",
+        "ferror/bcb": "*",
+        "ferror/bcc": "*"
+    },
+    "repositories": {
+        "ferror/bca": {
+            "type": "path",
+            "url": "app/BoundedContextA"
+        },
+        "ferror/bcb": {
+            "type": "path",
+            "url": "app/BoundedContextB"
+        },
+        "ferror/bcc": {
+            "type": "path",
+            "url": "app/BoundedContextC"
+        }
+    }
+}
